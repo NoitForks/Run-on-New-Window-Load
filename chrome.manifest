@@ -1,0 +1,2 @@
+content run-on-new-window-load ./
+locale run-on-new-window-load en-US locale/en-US/

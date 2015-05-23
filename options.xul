@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <setting title="Load Script" type="string" pref="extensions.Run-on-New-Window-Load@jetpack.load_script">
+        This code will run in every window. `xwin` is the variable referring to the taget XUL window.
+    </setting>
+    <setting title="Unload Script" type="string" pref="extensions.Run-on-New-Window-Load@jetpack.unload_script">
+        This code will run in every window that remains open when add-on is disabled or uninstalled. `xwin` is the variable referring to the taget XUL window.
+    </setting>
+</vbox>
