@@ -8,7 +8,7 @@ Cu.import('resource://gre/modules/XPCOMUtils.jsm');
 // Globals
 const core = {
 	addon: {
-		name: 'AsyncZip',
+		name: 'Run on New Window Load',
 		id: 'Run-on-New-Window-Load@jetpack',
 		path: {
 			name: 'run-on-new-window-load',
