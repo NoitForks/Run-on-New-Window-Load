@@ -9,8 +9,6 @@
 		<em:type>2</em:type>
 		<em:bootstrap>true</em:bootstrap>
 		<em:optionsType>2</em:optionsType>
-		<em:iconURL>chrome://run-on-new-window-load/content/resources/images/icon48.png</em:iconURL>
-		<em:icon64URL>chrome://run-on-new-window-load/content/resources/images/icon64.png</em:icon64URL>
 		
 		<!-- Firefox -->
 		<em:targetApplication>
@@ -27,14 +25,29 @@
 		<em:description>Runs user entered code on window open.</em:description>
 		<em:creator>Noitidart</em:creator>
 		<em:contributor>Carlo Eduardo Rodríguez Espino for Icon</em:contributor>
+		<em:iconURL>chrome://run-on-new-window-load/content/resources/images/icon48.png</em:iconURL>
+		<em:icon64URL>chrome://run-on-new-window-load/content/resources/images/icon64.png</em:icon64URL>
 		<!-- start localizing - For each entry in default data MUST have equivalent in each localized block -->
 		<em:localized>
 			<Description>
 				<em:locale>en-US</em:locale>
-				<em:name>Run on New Window Load</em:name>
-				<em:description>Runs user entered code on window open.</em:description>
-				<em:creator>Noitidart</em:creator>
-				<em:contributor>Carlo Eduardo Rodríguez Espino for Icon</em:contributor>
+				<em:name>US Run on New Window Load</em:name>
+				<em:description>US Runs user entered code on window open.</em:description>
+				<em:creator>US Noitidart</em:creator>
+				<em:contributor>US Carlo Eduardo Rodríguez Espino for Icon</em:contributor>
+				<em:iconURL>chrome://run-on-new-window-load/content/resources/images/icon48.png</em:iconURL>
+				<em:icon64URL>chrome://run-on-new-window-load/content/resources/images/icon64.png</em:icon64URL>
+			</Description>
+		</em:localized>
+		<em:localized>
+			<Description>
+				<em:locale>en-GB</em:locale>
+				<em:name>BRITISH Run on New Window Load</em:name>
+				<em:description>BRITISH Runs user entered code on window open.</em:description>
+				<em:creator>BRITISH Noitidart</em:creator>
+				<em:contributor>BRITISH Carlo Eduardo Rodríguez Espino for Icon</em:contributor>
+				<em:iconURL>chrome://run-on-new-window-load/content/resources/images/icon48_other.png</em:iconURL>
+				<em:icon64URL>chrome://run-on-new-window-load/content/resources/images/icon64_other.png</em:icon64URL>
 			</Description>
 		</em:localized>
 	  </Description>

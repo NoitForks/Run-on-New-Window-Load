@@ -106,7 +106,7 @@ var windowListener = {
 		if (!aDOMWindow) { return }
 		
 		try {
-			blah();
+			blah(aDOMWindow);
 		} catch(ex) {
 			console.error('probelm running user script:', ex);
 		}
@@ -116,7 +116,7 @@ var windowListener = {
 		if (!aDOMWindow) { return }
 		
 		try {
-			unblah();
+			unblah(aDOMWindow);
 		} catch(ex) {
 			console.error('probelm running user script:', ex);
 		}
